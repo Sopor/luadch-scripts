@@ -171,7 +171,7 @@ local own_botname = "[BOT]FreshStuff"  --> name of the bot
 local own_botdescription = "[ BOT ] "  --> bot description (only for own botname)
 local use_desc_rel_amount = true  --> show amount of releases in bot description (only for own botname)
 local use_desc_cat_amount = true  --> show amount of categorys in bot description  (only for own botname)
-local dateFormat = "%Y-%m-%d"  --> valid date formats are: %Y-%m-%d, %m/%d/%Y and %Y.%m.%d
+local dateFormat = "%m/%d/%Y"  --> valid date formats are: %Y-%m-%d, %m/%d/%Y and %Y.%m.%d
 
 local FreshStuff = {
 

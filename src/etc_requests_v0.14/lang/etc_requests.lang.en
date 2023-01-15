@@ -1,0 +1,51 @@
+﻿return {
+
+help_title = "etc_requests.lua",
+help_usage = "[+!#]request show / [+!#]request showall / [+!#]request add <relname> / [+!#]request del <relname> / [+!#]request delall / [+!#]filled show / [+!#]filled add <relname> / [+!#]request showdel\n\n\tUse only allowed chars and complete release names! All other requests will be deleted!",
+help_desc = "a script to request / fill releases",
+
+msg_denied = "[ REQUESTS ]--> You are not allowed to use this command!",
+
+msg_etc_001 = "   |   by: ",
+msg_etc_002 = "   |   requested by: ",
+msg_etc_003 = "   |   filled by: ",
+msg_etc_004 = "   |   deleted by: ",
+msg_etc_005 = "REQUEST      ",
+msg_etc_006 = "FILLED       ",
+msg_etc_007 = "DELETED      ",
+msg_etc_008 = "ID: ",
+msg_etc_009 = "[ REQUESTS ]--> Added by   ",
+msg_etc_010 = "[ REQUESTS ]--> Filled by   ",
+msg_etc_011 = "[ REQUESTS ]--> Your request will automatically be deleted after %i days.",
+msg_etc_012 = "Use +filled add <release name> to fill this request within %i days.",
+
+msg_etc_101 = "[ REQUESTS ]--> The following release was deleted:   ",
+msg_etc_102 = "[ REQUESTS ]--> All releases were deleted!",
+msg_etc_103 = "[ REQUESTS ]--> All releases with status REQUEST were deleted!",
+msg_etc_104 = "[ REQUESTS ]--> All releases with status FILLED were deleted!",
+msg_etc_105 = "[ REQUESTS ]--> All releases with status DELETED were deleted!",
+
+msg_etc_201 = "[ REQUESTS ]--> Release not found.",
+msg_etc_202 = "[ REQUESTS ]--> There are no releases in the database.",
+msg_etc_203 = "[ REQUESTS ]--> Input with unallowed chars, you are only allowed to use scene release names!",
+msg_etc_204 = "[ REQUESTS ]--> Request: unknown param [2]",
+msg_etc_205 = "[ REQUESTS ]--> Filled: unknown param [2]",
+msg_etc_206 = "[ REQUESTS ]--> Release already added as REQUEST.",
+msg_etc_207 = "[ REQUESTS ]--> Release already added as FILLED.",
+msg_etc_208 = "[ REQUESTS ]--> Release already added as DELETED.",
+
+ucmd_menu_request_add = { "Requests", "add", "a release" },
+ucmd_menu_filled_add = { "Requests", "add", "a release as filled" },
+ucmd_menu_request_show = { "Requests", "show", "all requests" },
+ucmd_menu_filled_show = { "Requests", "show", "all filled" },
+ucmd_menu_del_show = { "Requests", "show", "all deleted" },
+ucmd_menu_request_showall = { "Requests", "show", "all releases" },
+ucmd_menu_del_request = { "Requests", "delete", "one release" },
+ucmd_menu_del_requests_all_r = { "Requests", "delete", "all requested releases" },
+ucmd_menu_del_requests_all_f = { "Requests", "delete", "all filled releases" },
+ucmd_menu_del_requests_all_d = { "Requests", "delete", "all deleted releases" },
+ucmd_menu_del_requests_all = { "Requests", "delete", "all releases" },
+
+ucmd_relname = "Name of the release",
+
+}
