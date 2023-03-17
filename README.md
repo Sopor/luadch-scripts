@@ -11,7 +11,9 @@
  - added: only allow scene chars in a request name
  - fixed: bugs and other enhancements
 
-##### [ptx_freshstuff](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/ptx_freshstuff.lua)
+##### [ptx_freshstuff.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/ptx_freshstuff.lua)
  - changed: better explanation in the right click menu for opt-out/in
  - added: announce releases in main or pm
 
+##### [usr_hubs.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/usr_hubs.lua)
+ - added: shows user's IP address in OpChat when exceeded user's hub limit
