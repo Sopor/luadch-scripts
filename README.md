@@ -20,3 +20,5 @@
 
 ##### [usr_hubs.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/usr_hubs.lua)
  - added: shows user's IP address in OpChat when exceeded user's hub limit
+
+## Have you made any Luadch scripts you want to share? Contact me and I will share your Luadch scripts here!
