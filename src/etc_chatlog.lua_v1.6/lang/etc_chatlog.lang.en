@@ -1,0 +1,76 @@
+return {
+
+    -- msgs --
+    help_title = "etc_chatlog.lua - Users",  -- for regs
+    help_usage =  "[+!#]history show [<LINES>]  / or: [+!#]history toggle",
+    help_desc = "Shows the last written messages in mainchat, you can toggle it on/off.",
+
+    help_titleo = "etc_chatlog.lua - Owners",  -- for owner
+    help_usageo = "[+!#]history [reset_t_logs|reset_t_exceptions]  / or: [+!#]history showexceptions",
+    help_desco = "Delete Chatlog / or: delete list of deniers.",
+
+    msg_usage = "Usage: [+!#]history show [<lines>]  / or: [+!#]history toggle",
+    msg_usageo = "Usage: [+!#]history show [<lines>] / [+!#]history toggle / [+!#]history [reset_t_logs|reset_t_exceptions]  / [+!#]history showexceptions",
+
+    msg_denied = "[ CHATLOG ]--> You are not allowed to use this command.",
+    msg_leave = "[ CHATLOG ]--> Chatlog mode: off",
+    msg_join = "[ CHATLOG ]--> Chatlog mode: on",
+    msg_del_log = "[ CHATLOG ]--> Chatlog was cleaned.",
+    msg_del_exceptions = "[ CHATLOG ]--> List of Chatlog-deniers was cleaned.",  -- debug
+    msg_intro = "The last  %s  post(s):",
+    msg_deniers = "\nList of Chatlog-deniers:",
+    msg_empty = "[ CHATLOG ]--> No entry",
+
+    -- ucmd menu --
+    ucmd_menu_toggle = { "Hub", "etc", "Chatlog", "Mode", "on\\off" },  -- reg
+    ucmd_menu_show = { "Hub", "etc", "Chatlog", "show Chatlog" },  -- reg
+    ucmd_menu_reset_t_log = { "Hub", "etc", "Chatlog", "Admin", "clean Chatlog" },  -- owner
+    ucmd_menu_showexceptions = { "Hub", "etc", "Chatlog", "Admin", "show Chatlog-deniers" },  -- owner
+    ucmd_menu_reset_t_exceptions = { "Hub", "etc", "Chatlog", "Admin", "clean Chatlog-deniers" },  -- owner
+    ucmd_popup = "How many posts?",
+
+    logo_1 = [[
+
+
+=== CHATLOG =====================================================================================
+%s
+   ]],
+
+    logo_2 = [[
+
+===================================================================================== CHATLOG ===
+  ]],
+
+    -- user msgs --
+    msg_warning_spam = "Take it easy with your keystrokes!",
+    msg_warning_chars = "Your message is too long!",
+    msg_warning_rows = "Your message has too many lines!",
+
+    help_title_clean = "Main chat clean",
+    help_usage_clean = "[+!#]mainchat [clean|unlock|lock]",
+    help_desc_clean = "Will clean mainchat and empty the main chat history.",
+
+    -- error msgs --
+    msg_denied_clean = "You are not allowed to use this command.",
+
+    -- user msgs --
+    main_locked = "Main chat is locked, you are not able to write anything.",
+    main_unlocked = "Main chat is unlocked, you can write again.",
+    main_locked_user = "Main chat is locked, only operators can write.",
+
+    -- op msgs --
+    main_locked_op = "Main chat is already locked.",
+    main_unlocked_op = "Main chat is already unlocked.",
+    msg_usage_clean = "Usage: [+!#]mainchat [clean|unlock|lock]",
+
+    cleaning_started = "Main chat cleaning started",
+    cleaning_by = " by ",
+    still_cleaning = "...still cleaning main chat...\n",
+    cleaning_finished = "Main chat is now cleaned!\n",
+
+    -- ucmd menu --
+    ucmd_menu_clean = { "Hub", "Main chat", "CLEAN" },
+    ucmd_menu_off = { "Hub", "Main chat", "LOCK" },
+    ucmd_menu_on = { "Hub", "Main chat", "UNLOCK" },
+
+}
