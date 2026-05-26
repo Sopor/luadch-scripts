@@ -34,7 +34,8 @@
            - changed: now only compatible with Luadch 3.x and higher
  -  v0.18:<br />
            - changed: command registration to etc_hubcommands
-
+ -  v0.19:<br />
+           - fixed: attempt to call a nil value
 
 ##### [etc_setemail.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/etc_setemail.lua)
  -  v1.2: this script will ask the user at login to save an email address<br />
