@@ -8,14 +8,14 @@
 
  -  v1.6: now includes etc_nospam.lua and ptx_mainchatblockclean.lua
            - added: etc_nospam.lua is now included to prevent blocked messages to be sent to history log
-           - added: ptx_mainchatblockclean.lua is now included and will clear history log after a main chat clean
+           - added: ptx_mainchatblockclean.lua is now included and will clear history log after a main chat clean<br />
          **NOTE: if you are running etc_nospam.lua and/or ptx_mainchatblockclean.lua you need to remove them from cfg.tbl**
            - added: blocks message with too many characters
            - added: blocks message with too many rows (line breaks)
            - added: tell level 60 and above when someone gets blocked
            - added: send logs and warnings to Hubbot and/or OPChat
-           - fixed: command usage will now show different commands for users and ops
-         **NOTE: this should work with Luadch 2.23 and 2.24**
+           - fixed: command usage will now show different commands for users and ops<br />
+         **NOTE: this should work with Luadch 2.23, 2.24 and 3.x**
 
 ##### [etc_mainecho.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/etc_mainecho.lua)
  -  v0.5: a trigger bot for main
