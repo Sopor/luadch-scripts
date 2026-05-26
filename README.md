@@ -6,8 +6,8 @@
  - v1.51: original etc_chatlog that now includes etc_nospam and ptx_mainchatblockclean<br />
            - fixed: temporary fix for "bad argument #1 to 'byte' (string expected, got nil)"
 
- -  v1.6: now includes etc_nospam.lua and ptx_mainchatblockclean.lua
-           - added: etc_nospam.lua is now included to prevent blocked messages to be sent to history log
+ -  v1.6: now includes etc_nospam.lua and ptx_mainchatblockclean.lua<br />
+           - added: etc_nospam.lua is now included to prevent blocked messages to be sent to history log<br />
            - added: ptx_mainchatblockclean.lua is now included and will clear history log after a main chat clean<br />
          **NOTE: if you are running etc_nospam.lua and/or ptx_mainchatblockclean.lua you need to remove them from cfg.tbl**<br />
            - added: blocks message with too many characters<br />
