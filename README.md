@@ -37,13 +37,13 @@
 
 
 ##### [etc_setemail.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/etc_setemail.lua)
- -  v1.2: this script will ask the user at login to save an email address
+ -  v1.2: this script will ask the user at login to save an email address<br />
            - added: right-click menus for OP
  -  v1.3:<br />
-           - added: option to show both english and/or swedish messages
+           - added: option to show both english and/or swedish messages<br />
            - added: if the user change username it will automatically update the etc_setemail.tbl
  -  v1.4<br />
-           - changed command registration to etc_hubcommands
+           - changed command registration to etc_hubcommands<br />
            - foolproofing the pattern for email addresses
  -  v1.5<br />
            - if the user change CID it will automatically update the etc_setemail.tbl
