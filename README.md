@@ -51,6 +51,9 @@
 ##### [ptx_freshstuff.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/ptx_freshstuff.lua)
  - v0.12: multifunctional release-bot<br />
            - changed: better explanation in the right click menu for opt-out/in
+ - v0.13:<br />
+           - changed: command registration to etc_hubcommands<br />
+           - changed: now only compatible with Luadch 3.x and higher
 
 ##### [usr_hubs.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/usr_hubs.lua)
  - v0.13: this script checks the hub count of a user<br />
