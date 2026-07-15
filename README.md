@@ -15,17 +15,20 @@
            - added: tell level 60 and above when someone gets blocked<br />
            - added: send logs and warnings to Hubbot and/or OPChat<br />
            - fixed: command usage will now show different commands for users and ops<br />
-         **NOTE: this should work with Luadch 2.23, 2.24 and 3.x**
+         **NOTE: this should work with Luadch 2.23, 2.24 and 3.1.x**
 
 ##### [etc_mainecho.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/etc_mainecho.lua)
  -  v0.5: a trigger bot for main<br />
-           - changed: now only compatible with Luadch 3.x and higher
+           - changed: now only compatible with Luadch 3.x and higher<br />
+ - v0.6:<br />
+           - added cooldown option for same trigger
+           - added option to set minlevel to use RC bot sleep
 
 ##### [etc_motd.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/etc_motd.lua)
  - v0.08: this script sends a message to users after login and it can be triggered manually<br />
-           - added: command to show motd<br />
-           - added: rightclick<br />
-           - added: help<br />
+           - added: command to show motd
+           - added: rightclick
+           - added: help
 
 ##### [etc_requests.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/etc_requests.lua)
  -  v0.16: request-bot<br />
@@ -43,11 +46,13 @@
  -  v1.3:<br />
            - added: option to show both english and/or swedish messages<br />
            - added: if the user change username it will automatically update the etc_setemail.tbl
- -  v1.4<br />
+ -  v1.4:<br />
            - changed command registration to etc_hubcommands<br />
            - foolproofing the pattern for email addresses
- -  v1.5<br />
+ -  v1.5:<br />
            - if the user change CID it will automatically update the etc_setemail.tbl
+ - v1.6:<br />
+           - added check, show and remove email addresses that doesn't have an account anymore
 
 ##### [ptx_freshstuff.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/ptx_freshstuff.lua)
  - v0.12: multifunctional release-bot<br />
@@ -59,12 +64,15 @@
 ##### [usr_hubs.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/usr_hubs.lua)
  - v0.13: this script checks the hub count of a user<br />
            - added: shows user's IP address in OpChat when exceeded user's hub limit
- - v0.14:
+ - v0.14:<br />
            - fixed: now only compatible with Luadch 3.x and higher
 
 ##### [usr_upload_speed.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/usr_upload_speed.lua)
  - v0.6: this script compares the speed prefix and Upload Speed from INF US field<br />
          this is to prevent users from using the built-in limiter<br />
            - added: DC++/ApexDC++/EiskaltDC++, but they need to use the limiter for speeds that doesn't exists in the line speed
+
+ - v0.7:<br />
+           - no longer removing the speed prefix when blocking a user
 
 ## Have you made any Luadch scripts you want to share? Contact me and I will share your Luadch scripts here!
