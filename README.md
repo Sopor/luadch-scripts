@@ -21,13 +21,13 @@
  -  v0.5: a trigger bot for main<br />
            - changed: now only compatible with Luadch 3.x and higher<br />
  - v0.6:<br />
-           - added cooldown option for same trigger
+           - added cooldown option for same trigger<br />
            - added option to set minlevel to use RC bot sleep
 
 ##### [etc_motd.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/etc_motd.lua)
  - v0.08: this script sends a message to users after login and it can be triggered manually<br />
-           - added: command to show motd
-           - added: rightclick
+           - added: command to show motd<br />
+           - added: rightclick<br />
            - added: help
 
 ##### [etc_requests.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/etc_requests.lua)
