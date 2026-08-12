@@ -77,7 +77,7 @@
  - v0.7:<br />
            - no longer removing the speed prefix when blocking a user
  - v0.8:<br />
-           **NOTE: should be used together with the included etc_trafficmanager.lua v2.2.3<br />
+           **NOTE: should be used together with the included etc_trafficmanager.lua v2.2.3**<br />
            - using CID to remove old blocks after a user got a new prefix<br />
            - not announce a blocked user again after +reload<br />
            - added ban_interval<br />
