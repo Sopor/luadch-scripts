@@ -32,20 +32,20 @@
 
 ##### [etc_requests.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/etc_requests.lua)
  -  v0.16: request-bot<br />
-           - added: group list ban
+           - added group list ban
  -  v0.17:<br />
-           - changed: now only compatible with Luadch 3.x and higher
+           - now only compatible with Luadch 3.x and higher
  -  v0.18:<br />
-           - changed: command registration to etc_hubcommands
+           - changed command registration to etc_hubcommands
  -  v0.19:<br />
-           - fixed: attempt to call a nil value
+           - fixed attempt to call a nil value
 
 ##### [etc_setemail.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/etc_setemail.lua)
  -  v1.2: this script will ask the user at login to save an email address<br />
-           - added: right-click menus for OP
+           - added right-click menus for OP
  -  v1.3:<br />
-           - added: option to show both english and/or swedish messages<br />
-           - added: if the user change username it will automatically update the etc_setemail.tbl
+           - added option to show both english and/or swedish messages<br />
+           - if the user change username it will automatically update the etc_setemail.tbl
  -  v1.4:<br />
            - changed command registration to etc_hubcommands<br />
            - foolproofing the pattern for email addresses
@@ -56,23 +56,31 @@
 
 ##### [ptx_freshstuff.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/ptx_freshstuff.lua)
  - v0.12: multifunctional release-bot<br />
-           - changed: better explanation in the right click menu for opt-out/in
+           - changed better explanation in the right click menu for opt-out/in
  - v0.13:<br />
-           - changed: command registration to etc_hubcommands<br />
-           - changed: now only compatible with Luadch 3.x and higher
+           - changed command registration to etc_hubcommands<br />
+           - changed now only compatible with Luadch 3.x and higher<br />
+ - v0.14:<br />
+          - added 'releases new' to help and usage text<br />
+          - showing help message when '+releases' have no arguments
 
 ##### [usr_hubs.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/usr_hubs.lua)
  - v0.13: this script checks the hub count of a user<br />
-           - added: shows user's IP address in OpChat when exceeded user's hub limit
+           - shows user's IP address in OpChat when exceeded user's hub limit
  - v0.14:<br />
-           - fixed: now only compatible with Luadch 3.x and higher
+           - now only compatible with Luadch 3.x and higher
 
 ##### [usr_upload_speed.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/usr_upload_speed.lua)
  - v0.6: this script compares the speed prefix and Upload Speed from INF US field<br />
          this is to prevent users from using the built-in limiter<br />
-           - added: DC++/ApexDC++/EiskaltDC++, but they need to use the limiter for speeds that doesn't exists in the line speed
-
+           - added DC++/ApexDC++/EiskaltDC++, but they need to use the limiter for speeds that doesn't exists in the line speed
  - v0.7:<br />
            - no longer removing the speed prefix when blocking a user
+ - v0.8:<br />
+           **NOTE: should be used together with the included etc_trafficmanager.lua v2.2.3<br />
+           - using CID to remove old blocks after a user got a new prefix<br />
+           - not announce a blocked user again after +reload<br />
+           - added ban_interval<br />
+           - cleaning up some unnecessary code
 
 ## Have you made any Luadch scripts you want to share? Contact me and I will share your Luadch scripts here!
