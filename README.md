@@ -2,6 +2,10 @@
 
 ## If you want to know more about the changes you can read the changelog inside every script.
 
+##### [etc_botclients.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/etc_botclients.lua)
+ -  v0.1: shows users with a specific client (e.g. Herald announcer) as bot in the userlist<br />
+           - first release
+
 ##### [etc_chatlog.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/etc_chatlog.lua)
  -  v1.6: replacment for the original etc_chatlog.lua<br />
            - added etc_nospam.lua is now included to prevent blocked messages to be sent to history log<br />
@@ -19,7 +23,7 @@
            - added cooldown option for same trigger<br />
            - added option to set minlevel to use RC bot sleep
 
-##### [etc_masspmoffline.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/etc_masspmoffline.lua)
+##### ~~[etc_masspmoffline.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/etc_masspmoffline.lua)~~
  - v1.4: send masspm to offline users and to a specific level and also set an expiration date on the message<br />
            - sends online PMs without requiring the ONLINE mode or a duration<br />
            - supports minute, hour, day, week, and month message durations
@@ -47,11 +51,8 @@
            - now only compatible with Luadch 3.x and higher
 
 ##### [usr_upload_speed.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/usr_upload_speed.lua)
- - v0.8: this script compares the speed prefix and Upload Speed from INF US field<br />
+ - v0.9: this script compares the speed prefix and Upload Speed from INF US field<br />
            **NOTE: should be used together with the included etc_trafficmanager.lua v2.2.3**<br />
-           - using CID to remove old blocks after a user got a new prefix<br />
-           - not announce a blocked user again after +reload<br />
-           - added ban_interval<br />
-           - cleaning up some unnecessary code
+           - added support for the new FulDC++ client
 
 ## Have you made any Luadch scripts you want to share? Contact me and I will share your Luadch scripts here!
