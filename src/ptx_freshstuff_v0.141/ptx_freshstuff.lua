@@ -161,7 +161,7 @@ local optout_file = "ptx_freshstuff_optoutusers.dat"
 --------------
 
 local scriptname = "ptx_freshstuff"
-local scriptversion = "0.13"
+local scriptversion = "0.141"
 
 local userlevels = {
 
