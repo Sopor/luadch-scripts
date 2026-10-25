@@ -18,12 +18,6 @@
           - fixed command usage will now show different commands for users and ops<br />
           **NOTE: this should work with Luadch 2.23, 2.24 and 3.1.x**
 
-##### [etc_happybirthdaypm.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/etc_happybirthdaypm.lua)
- - v1.2: Birthday announcer that remind all the users to congratulate him/her<br />
-         - store birthday records by nickname; CID is saved after login<br />
-         - allow OPs to save birthdays for offline users<br />
-         - remove only birthday entries for deleted registered users
-
 ##### [etc_mainecho.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/etc_mainecho.lua)
  - v0.6: a trigger bot for main<br />
          - added cooldown option for same trigger<br />
