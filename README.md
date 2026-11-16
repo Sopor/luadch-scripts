@@ -46,7 +46,7 @@
 
 ##### [ptx_freshstuff.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/ptx_freshstuff.lua)
  - v0.15: multifunctional release-bot<br />
-          - if the user change nick the user doesn't lose the optout
+          - if the user change nick the user doesn't lose the optout<br />
           **NOTE: You need to delete existing scripts/data/ptx_freshstuff_optoutusers.dat because this version is not compatible with earlier versions**
 
 ##### [usr_hubs.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/usr_hubs.lua)
