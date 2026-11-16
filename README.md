@@ -7,7 +7,7 @@
           - first release
 
 ##### [etc_chatlog.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/etc_chatlog.lua)
- -  v1.6: replacment for the original etc_chatlog.lua<br />
+ -  v1.6: replacement for the original etc_chatlog.lua<br />
           - added etc_nospam.lua is now included to prevent blocked messages to be sent to history log<br />
           - added ptx_mainchatblockclean.lua is now included and will clear history log after a main chat clean<br />
           **NOTE: if you are running etc_nospam.lua and/or ptx_mainchatblockclean.lua you need to remove them from cfg.tbl**<br />
@@ -47,6 +47,7 @@
 ##### [ptx_freshstuff.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/ptx_freshstuff.lua)
  - v0.15: multifunctional release-bot<br />
           - if the user change nick the user doesn't lose the optout
+          **NOTE: You need to delete existing scripts/data/ptx_freshstuff_optoutusers.dat because this version is not compatible with earlier versions**
 
 ##### [usr_hubs.lua](https://github.com/Sopor/luadch-scripts/tree/main/7-zip/usr_hubs.lua)
  - v0.14: this script checks the hub count of a user<br />

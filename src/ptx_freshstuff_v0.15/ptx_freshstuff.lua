@@ -22,6 +22,8 @@
 
     v0.15: by Sopor
       - if the user change nick the user doesn't lose the optout
+      NOTE: You need to delete existing scripts/data/ptx_freshstuff_optoutusers.dat
+      because this version is not compatible with earlier versions
 
     v0.141: by Sopor
       - oops i forgot to include the updated ptx_freshstuff_categories.dat :/
